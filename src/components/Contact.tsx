@@ -22,8 +22,8 @@ const Contact = () => {
     if (message) return null;
 
     emailjs
-      .sendForm("service_jnj3alg", "template_mebfogf", form.current, {
-        publicKey: "YxlJe7M8m6wp0S-fH",
+      .sendForm("service_jnj", "template_mebf", form.current, {
+        publicKey: "YxlJe7M8m6wp0",
       })
       .then(
         () => {
